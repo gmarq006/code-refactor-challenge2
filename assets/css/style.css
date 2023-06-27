@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px blue solid;
+}
+
+header h1 {
+    width: 50%;
+}
+
+header nav {
+    width: 50%;
+    border: 1px darkgreen solid
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+figure {
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+img {
+    width: 100%;
+}
+
+.left-side {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side .title {
+    width: 12%;
+    border-right: 2px red solid;
+}
+
+.left-side .section-container {
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 45%;
+    position: relative;
+}
+
+.card h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    border: 1px purple solid;
+    background: white;
+    width: 100px;
+    height: 50px;
+
+}
+
+#image1 {
+    position: relative;
+}
+
+#image1 h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+}
