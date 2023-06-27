@@ -1,32 +1,59 @@
 header {
     display: flex;
     flex-wrap: wrap;
-    border: 1px blue solid;
+    border: 2px cyan;
+    height: 100%;
 }
 
 header h1 {
     width: 50%;
+    background: darkcyan;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
 }
+
+
+h1 {
+    color: darkcyan;
+}
+
 
 header nav {
     width: 50%;
-    border: 1px darkgreen solid
+    background: darkcyan;
+
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 30px;
+}
+
+a:link {
+    color: aliceblue
 }
 
 figure {
-    background-image: url(https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_1280.jpg);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210709/pngtree-abstract-backgrouns-set-grunge-texture-minimalistic-art-brush-strokes-style-design-image_739359.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
 }
 
-img {
+.section-container h3 {
+    border: 1px lightcoral solid;
+    background-color: lightcoral;
+    padding: 10px;
+    padding-left: 30px;
+    width: 100px;
+    color: aliceblue;
+}
+
+
+.card img {
     width: 100%;
 }
 
@@ -38,6 +65,8 @@ img {
 .left-side .title {
     width: 12%;
     border-right: 2px red solid;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .left-side .section-container {
@@ -45,30 +74,47 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    word-spacing: 5px;
+    padding: 10px;
 }
 
 .card {
-    width: 45%;
+    width: 47%;
     position: relative;
+    margin-top: 10px;
+    border: 4px purple solid;
+
 }
 
 .card h3 {
     position: absolute;
     z-index: 1;
     bottom: 10%;
-    border: 1px purple solid;
-    background: white;
+    border: 4px purple solid;
+    background: purple;
     width: 100px;
     height: 50px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
 
 }
 
+
 #image1 {
     position: relative;
+    border: 4px lightcoral solid;
 }
 
 #image1 h3 {
     position: absolute;
     z-index: 1;
     bottom: 10%;
+}
+
+.section-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
 }
